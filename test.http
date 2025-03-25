@@ -1,0 +1,15 @@
+POST http://localhost:3000/send
+accept: application/json
+content-type: application/json
+
+{
+  "number": 573014633433,
+  "message": "Hello, World!4"
+}
+
+###
+
+GET http://localhost:3000/require-scan
+###
+
+GET http://localhost:3000/
